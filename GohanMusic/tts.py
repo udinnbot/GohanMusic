@@ -39,3 +39,4 @@ async def text_to_speech(_, message: Message):
         await m.edit(str(e))
         es = traceback.format_exc()
         print(es)
+
