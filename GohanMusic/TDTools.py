@@ -75,3 +75,4 @@ async def lirik(_, message):
         await rep.edit(
             f"**Lyrics tidak ditemukan.** \nCoba cari dengan judul lagu yang lebih jelas"
         )
+
